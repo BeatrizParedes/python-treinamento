@@ -1,10 +1,11 @@
-"Escreva um programa que leia um número inteiro e um número decimal do teclado e, em seguida, exiba a soma desses números no console"
+"Crie um programa que peça ao usuário para digitar seu nome e sobrenome"
+"O programa deve exibir uma mensagem de boas-vindas concatenando o nome e o sobrenome do usuário"
 
-def entrada_de_dados():
-    num1 = int(input("Escreva um número inteiro: "))
-    num2 = float(input("Escreva um numero decimal: "))
+def concatenar():
+    nome=input("Poderia informar seu nome? ")
+    sobrenome=input("Poderia informar seu sobrenome? ")
 
-    print(f"A soma de {num1} + {num2} é: ",num1+num2)
+    print(f"Seja bem-vindo ao sistema {nome} {sobrenome}")
 
-if __name__=="__main__":
-    entrada_de_dados()
+if __name__ =="__main__":
+    concatenar()
