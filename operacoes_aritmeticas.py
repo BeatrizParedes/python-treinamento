@@ -10,7 +10,7 @@ def calculadora():
     print(f"{num1} + {num2} = ", num1+num2)
     print(f"{num1} * {num2} = ", num1*num2)
     print(f"{num1} / {num2} = ", num1/num2)
-    print(f"{num1} % {num2} = ", num1%num2) #Operação de módulo
+    print(f"{num1} % {num2} = ", num1%num2) #Operação de módulo retorna o resto da divisão de num1 por num2
 
 if __name__ == "__main__":
     calculadora()
