@@ -10,7 +10,7 @@ def maior():
     elif (num2>num1&num2>num3):
         print(f"O {num2} é o maior número entre os que você escolheu")
     else:
-        print(f"O {num3} é o maior dos números que você escolheu")
+        print(f"O {num3} é o maior dos números que você escolheu") #Se o f não for colocado o programa mantém a variável nas chaves e não atribui o valor
 
 if __name__=="__main__":
     maior()
