@@ -1,4 +1,4 @@
-"Crie um programa que calcule o produto dos números inteiros de 1 a 10."
+"Crie um programa que calcule a multiplicação dos números inteiros de 1 a 10."
 
 def produto_dos_numeros():
     produto =int(input("Digite o número que deseja multiplicar: "))
