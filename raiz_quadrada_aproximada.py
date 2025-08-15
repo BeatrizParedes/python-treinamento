@@ -1,4 +1,5 @@
-"crie um programa que leia um número intiero positivo e encontre a raiz quadrada aproximada desse número. Continue a tentativa até encontrar a aproximação correta."
+"crie um programa que leia um número intiero positivo e encontre a raiz quadrada aproximada desse número. "
+"Continue a tentativa até encontrar a aproximação correta."
 
 def raiz_quadrada_aproximada():
     num = int(input("Digite um número inteiro positivo: "))

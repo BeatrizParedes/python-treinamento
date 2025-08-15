@@ -1,7 +1,7 @@
-"Escreva um programa que peça ao usuário para digitar uma senha. Continue pedindo a senha até que a senha correta seja digitada."
+"Escreva um programa que peça ao usuário para digitar uma senha. "
+"Continue pedindo a senha até que a senha correta seja digitada."
 
 def senha_correta():
-    
     senha_correta="python"
     senha_digitada=""
 
