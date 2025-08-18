@@ -11,7 +11,7 @@ def menu():
         print("4. Dividir dois números")
         print("5. Sair")
 
-        opcao =input("Escolha uma opção (1-5) (5 para sair): ")
+        opcao =input("Escolha uma opção (1-5): ")
         if opcao == '1':
             num1 = float(input("Digite o primeiro número: "))
             num2 = float(input("Digite o segundo número: "))
