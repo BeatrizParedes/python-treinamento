@@ -3,13 +3,12 @@
 
 def menor_e_maior():
     numeros=[]
-    maior=menor=numeros[0]
 
     for i in range(10):
         numero=int(input(f"Digite o numero {i+1} "))
         numeros.append(numero)
     
-    
+    maior=menor=numeros[0] #Esse parâmetro precisa ser passado aqui para que não dê erro com a lista de números
 
     for numero in numeros:
         if numero>maior:
